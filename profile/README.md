@@ -20,7 +20,7 @@
 </div>
 
 <div>
-    <h2>📑 목차</h2>
+    <h1>📑 목차</h1>
     > <a href="#introduction">프로젝트 개요</a><br>
     > <a href="#roadmap">프로젝트 로드맵</a><br>
     > <a href="#developers">팀원 및 역할</a><br>
@@ -34,7 +34,7 @@
 <br>
 
 <div id="introduction">
-    <h2>📌 프로젝트 개요</h2>
+    <h1>📌 프로젝트 개요</h1>
     <ul>
         <li><strong>프로젝트명</strong> : 키즈홈 (KidsHome)</li>
         <li><strong>개발 기간</strong> : 2025.05.07 - 2025.05.27 (총 21일)</li>
@@ -44,24 +44,24 @@
 <br>
 
 <div id="roadmap">
-    <h2>🗂️ 프로젝트 로드맵</h2>
+    <h1>📅 프로젝트 로드맵</h1>
     <img src="./assets/img/roadmap.png" alt="로드맵" style="max-width:100%; border-radius:8px;">
 </div>
 <br>
 
 <div id="developers">
-    <h2>🧑 팀원 및 역할</h2>
+    <h1>🧑 팀원 및 역할</h1>
     <div align="center">
     <table>
         <tr>
-            <td width="25%" align="center"> 
+            <td width="35%" align="center"> 
                 <a href="https://github.com/0w0n2">
                     <img src="./assets/img/profile-hye.jpg" width="160px" /> <br>
                     <strong>이혜원</strong>
                 </a>
                 <br>팀장 / Backend, Frontend<br>
             </td>
-            <td width="25%" align="center"> 
+            <td width="35%" align="center"> 
                 <a href="https://github.com/Kimyoungmin97">
                     <img src="./assets/img/profile-young.png" width="160px" /> <br>
                     <strong>김영민</strong>
@@ -70,7 +70,7 @@
             </td>
         </tr>
         <tr>
-            <td width="160px" valign="top">
+            <td valign="top">
                 <sub>
                 - 프로젝트 기획, GitHub 문서 정리<br>
                 - ERD 설계 및 DB 구조 정의<br>
@@ -81,30 +81,32 @@
                 - 카카오맵 기반 매물 시각화 및 상세 정보 패널 UI 구현
                 </sub>
             </td>
-            <td width="160px" valign="top">
+            <td valign="top">
                 <sub>
                 - UI/UX 설계 및 전체 화면 구현<br>
                 - 프로젝트 초기 구조 설계<br>
                 - ERD 설계 및 DB 구조 정의<br>
                 - 사용자 인증/인가 기능 공동 구현<br>
-                - 매물 실거래가 정보 관련 CRUD
-                - 동네 게시판 기능 구현
-                - 인기 검색어 기능 구현(Redis 활용)<br>
+                - 매물 실거래가 정보 관련 CRUD<br>
+                - 동네 게시판 기능 구현<br>
+                - 인기 검색어 기능 구현(Redis 활용)
                 </sub>
             </td>
         </tr>
     </table>
     </div>
 </div>
+
+<br>
 <br>
 
 <div id="tech-stack">
-<h2>기술 스택 및 시스템 아키텍쳐</h2>
-<h3>📌 시스템 아키텍처</h3>
+<h1>⚙️ 기술 스택 및 시스템 아키텍쳐</h1>
+<h2>📌 시스템 아키텍처</h2>
 <div align="center">
 <img src="./assets/img/system-architecture.png">
 </div>
-<h3>📦 기술 스택</h3>
+<h2>📦 기술 스택</h2>
 <h3>✅ Frontend</h3>
 <p align="center">
   <img alt="VSCode" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
@@ -115,6 +117,7 @@
   <img alt="CSS" src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
   <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <br>
   <img src="https://img.shields.io/badge/Kakao%20Map%20API-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=000000">
 </p>
 
@@ -130,7 +133,7 @@
     <tr><td><strong>IDE</strong></td><td>Visual Studio Code</td></tr>
   </tbody>
 </table>
-
+<hr/>
 <h3>✅ Backend</h3>
 <p align="center">
   <img alt="STS" src="https://img.shields.io/badge/SpringToolsSuite-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
@@ -139,6 +142,7 @@
   <img alt="Spring Boot" src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
   <img alt="Spring Security" src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
   <img alt="JWT" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
+  <br>
   <img alt="Maven" src="https://img.shields.io/badge/apachemaven-C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white">
   <img alt="MyBatis" src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=MyBatis&logoColor=white">
   <img alt="MySQL" src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
@@ -161,6 +165,8 @@
   </tbody>
 </table>
 
+<hr/>
+
 <h3>🧰 Development Tools</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -170,14 +176,15 @@
 </p>
 </div>
 <br>
+<br>
 
 <div id="deliverables">
-    <h2>프로젝트 산출물</h2>
-    <h3>ERD</h3>
+    <h1>🗂️ 프로젝트 산출물</h1>
+    <h2>✅ ERD</h2>
     <div align="center">
     <img src="./assets/img/erd.png">
     </div>
-    <h3>Class Diagram</h3>
+    <h2>✅ Class Diagram</h2>
     <div align="center">
     <img src="./assets/img/class-diagram.png">
     </div>
